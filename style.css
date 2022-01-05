@@ -9,7 +9,7 @@
   --color-transparent: #2220;
 }
 
-#poleks {
+#pole {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
@@ -17,7 +17,7 @@
   width: var(--grid-size);
   height: var(--grid-size);
 }
-#poleks div {
+#pole div {
   display: flex;
   border: black 1px solid;
   align-items: center;
@@ -31,7 +31,7 @@
   font-family: "Fredoka One";
   transition: transform 0.5s, color 0.1s linear 0.1s;
 }
-#poleks div:hover {
+#pole div:hover {
   filter: brightness(1.5);
   transform: scale(1.07);
 }
@@ -95,6 +95,6 @@ body {
   transform: rotateY(180deg);
   cursor: default;
 }
-#poleks div.flip:hover {
+#pole div.flip:hover {
   transform: scale(1.07) rotateY(180deg);
 }
